@@ -61,15 +61,22 @@
      currentItem++;
      //  document.querySelector(".next-btn").style.color = "(#ffffff)";
 
-     if (currentItem > reviews.length - 1) {
+     if (currentItem >= reviews.length - 1) {
          //  currentItem < 0;
          currentItem = reviews.length - 1;
 
          nextBtn.style.color = "#adb2bf";
+         //  nextBtn.style.color = "rgba(0,0,0,0)";
+         nextBtn.style.opacity = ".5";
+
      } else {
-         nextBtn.style.color = ""; // Revert color of next button
+         //  nextBtn.style.color = "";
+         // Revert color of next button
+         nextBtn.style.opacity = "1";
+
      }
      prevBtn.style.color = ""; // Revert color of previous button
+     prevBtn.style.opacity = "1";
 
      showPerson(currentItem);
  });
@@ -77,21 +84,27 @@
  prevBtn.addEventListener("click", function() {
      currentItem--;
 
-     if (currentItem < 0) {
+     if (currentItem <= 0) {
          currentItem = 0;
          //  currentItem < reviews.length - 1;
          prevBtn.style.color = "#adb2bf";
+         //  prevBtn.style.color = "rgba(0,0,0,0)";
+         prevBtn.style.opacity = ".5";
 
      } else {
          prevBtn.style.color = ""; // Revert color of previous button
+         prevBtn.style.opacity = "1";
+
      }
      nextBtn.style.color = "";
+     nextBtn.style.opacity = "1";
+
      showPerson(currentItem);
  });
  // show random person
- randomBtn.addEventListener("click", function() {
-     console.log("hello");
+ //  randomBtn.addEventListener("click", function() {
+ //      console.log("hello");
 
-     currentItem = Math.floor(Math.random() * reviews.length);
-     showPerson(currentItem);
- });
+ //      currentItem = Math.floor(Math.random() * reviews.length);
+ //      showPerson(currentItem);
+ //  });

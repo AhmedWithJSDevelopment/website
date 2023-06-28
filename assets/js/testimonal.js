@@ -68,15 +68,21 @@
          nextBtn.style.color = "#adb2bf";
          //  nextBtn.style.color = "rgba(0,0,0,0)";
          nextBtn.style.opacity = ".5";
+         nextBtn.style.cursor = "Not-allowed";
+
 
      } else {
          //  nextBtn.style.color = "";
          // Revert color of next button
          nextBtn.style.opacity = "1";
+         nextBtn.style.cursor = "pointer";
+
 
      }
      prevBtn.style.color = ""; // Revert color of previous button
      prevBtn.style.opacity = "1";
+     prevBtn.style.cursor = "pointer";
+
 
      showPerson(currentItem);
  });
@@ -90,14 +96,19 @@
          prevBtn.style.color = "#adb2bf";
          //  prevBtn.style.color = "rgba(0,0,0,0)";
          prevBtn.style.opacity = ".5";
+         prevBtn.style.cursor = "Not-allowed";
+
 
      } else {
          prevBtn.style.color = ""; // Revert color of previous button
          prevBtn.style.opacity = "1";
+         prevBtn.style.cursor = "pointer";
+
 
      }
      nextBtn.style.color = "";
      nextBtn.style.opacity = "1";
+     nextBtn.style.cursor = "pointer";
 
      showPerson(currentItem);
  });

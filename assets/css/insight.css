@@ -1363,6 +1363,18 @@
              padding-right: 15px;
              padding-left: 15px;
          }
+         /* .row {
+             display: -ms-flexbox;
+             display: flex;
+             -ms-flex-wrap: wrap;
+             flex-wrap: wrap;
+             justify-content: center;
+         } */
+         /* .row {
+             position: relative;
+             margin-right: -15px;
+             margin-left: -15px;
+         } */
          
          .row {
              display: -ms-flexbox;
@@ -1370,20 +1382,12 @@
              -ms-flex-wrap: wrap;
              flex-wrap: wrap;
              justify-content: center;
-         }
-         
-         .row {
-             position: relative;
-             margin-right: -15px;
-             margin-left: -15px;
-         }
-         
-         .row {
              position: relative;
              margin-right: auto;
              margin-left: auto;
              width: 100%;
              max-width: 100%;
+             /* box-shadow: 0.6em 0.6em 1.2em #d2dce9, -0.5em -0.5em 1em #ffffff; */
          }
          /**
  	 * Automatically clear rows

@@ -71,12 +71,11 @@
     .sectionProcess-listItemm .numm:after {
         top: calc(100% + 10px);
     }
-    
-    .sectionProcess-listItemm .numm:after {
+    /* .sectionProcess-listItemm .numm:after {
         width: 100%;
         background: #fff;
         height: 24px;
-    }
+    } */
     
     .numm:before {
         content: "";

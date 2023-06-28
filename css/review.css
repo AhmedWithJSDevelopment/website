@@ -321,6 +321,16 @@ main {
     margin: 0 0.5rem;
     transition: var(--transition);
     cursor: pointer;
+    width: 40px;
+    height: 40px;
+    background: rgba(22, 22, 22, .15);
+    border-radius: 50%;
+    /* font-size: 16px; */
+    top: 0 !important;
+    left: 0 !important;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
 }
 
 .prev-btn:hover,

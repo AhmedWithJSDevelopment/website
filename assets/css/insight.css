@@ -2912,7 +2912,7 @@
              z-index: 100;
          }
          
-         .main-slider-slide__content .btn:hover {
+         .main-slider-slide__content:hover .btn {
              background-color: rgba(0, 0, 0, 0);
              color: #fff;
          }

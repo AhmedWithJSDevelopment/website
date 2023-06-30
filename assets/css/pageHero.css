@@ -74,7 +74,17 @@ iframe {
     height: 550px;
     padding: 5px;
     margin-bottom: 50px;
+    /* opacity: .5;
+    -webkit-transform: translate(92px, 34px) rotateY(0deg) scale(1);
+    transform: translate(92px, 34px) rotateY(0deg) scale(1); */
 }
+
+
+/* .flipster--carousel .flipster__item--past .flipster__item__content {
+    opacity: .5;
+    -webkit-transform: translate(92px, 34px) rotateY(0deg) scale(1);
+    transform: translate(92px, 34px) rotateY(0deg) scale(1);
+} */
 
 *,
  :after,
